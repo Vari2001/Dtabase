@@ -1,0 +1,228 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+#logo{
+    margin: 34px 45px;
+    }
+    #logo img{
+    height: 66px;
+        margin: 5px 5px;
+    
+    }
+    #navbar{
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: -22px;
+    }
+    #navbar ul{
+        display: flex;
+    
+    }
+    #navbar ul li{
+        list-style: none;
+        font-size: 1.3rem;
+    }
+    #navbar::before{
+        content:"" ;
+        background-color: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 74%;
+        width: 101%;
+        z-index: -1;
+        opacity: 0.6;
+    }
+    #navbar ul li a{
+        color:#fff;
+        display: block;
+        padding: 3px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    #navbar ul li a:hover{
+        color: black;
+        background-color: white;
+    }
+    .right{
+        position: absolute;
+        right: 30px;
+        top:50px;
+        display: inline-block;
+        border: 2px solid white;
+    }
+    
+section{
+    height:100vh;
+    padding: 2em;
+}
+
+#home::before{
+    content:"" ;
+    background: url('../img/intro-bg_1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home{
+    display: flex;
+    align-items:self-start;
+    justify-content: space-around;
+}
+#home a{
+    background-color: aquamarine;
+    color:blue;
+    font-size: large;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+#home h1{
+color: black;
+text-align: center;
+height: 600px;
+padding-top: 40px;
+font-style: italic;
+background: transparent;
+}
+
+#services{
+    margin: 75px;
+    display: flex;
+}
+
+#home p{
+    color: brown;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#services .box:hover{
+    border:2px solid brown;
+    padding: 3px;
+     margin: 32px;
+     border-radius: 19px;
+    background: #f3af7e;
+    transform:scale(1);
+ 
+ }
+ #services .box img{
+    height: 220px;
+    width: 260px;
+    margin: auto;
+    display: block;
+ }
+
+ #product-section{
+    height: 344px;
+
+}
+#products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .input{
+    border: 50px;;
+    outline: none;
+    color:blueviolet;
+}
+
+.search_wrap{
+    width: 500px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.search_wrap .search_box{
+    position: relative;
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.search_wrap .search_box .input{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+.search_wrap .search_box .btn{
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 60px;
+    height: 100%;
+    background-color: #7690da;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+
+.search_wrap .search_box .btn:hover{
+    background-color: #708bd2;
+}
+
+.search_wrap .search_box .btn.btn_common .fas{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.search_wrap.search_wrap_1 .search_box .btn{
+    right: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-align: center;
+}
+
+
+
+
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.h-secondary{
+    font-size: 2.0rem;
+    padding: 12px;
+}
+.form{
+    padding: 20px;
+}
+.center{
+    text-align: center;
+}
+
+.sub-menu-1{
+    display: none;
+}
+#navbar ul li a:hover .sub-menu-1{
+    display: block;
+    position:absolute;
+    background: #fff;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
